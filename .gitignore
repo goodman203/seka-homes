@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+*.tsbuildinfo
+*.log
+.vercel/
+reports/
+/sika-homes-photo-assets/
+/sika-homes-photo-assets.zip
