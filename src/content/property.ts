@@ -28,6 +28,7 @@ export const property = {
     { src: "/images/property/sittingroom3.jpg", alt: "Sitting room viewed toward the television and dining table" },
     { src: "/images/property/pooltable.jpg", alt: "Green pool table with a blue table-tennis table behind it" },
     { src: "/images/property/bedroomdown.jpg", alt: "Seating corner with a green chair and striped rug" },
+    { src: "/images/property/pool.webp", alt: "Private swimming pool at Seka Homes in Guzape, Abuja." },
   ] as { src: string; alt: string }[],
   nightlyRate: 450000 as number | null,
   minimumStay: 1,
