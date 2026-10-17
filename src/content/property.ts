@@ -35,7 +35,7 @@ export const property = {
   contact: {
     address: "Citiscape Villa Estate, Guzape District, Abuja",
     email: "info@sekahomes.com",
-    phone: "+234 805 997 3415",
+    phone: "+2348143800477",
   },
   checkIn: "from 3:00 PM",
   checkOut: "by 1:00 PM",

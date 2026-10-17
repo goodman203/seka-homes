@@ -18,7 +18,7 @@ test("email uses the same complete message as WhatsApp with an encoded subject a
 });
 test("encodes every guest detail into one WhatsApp message without extra URL parameters", () => {
   const url = new URL(buildWhatsAppRequestUrl(request));
-  assert.equal(`${url.origin}${url.pathname}`, "https://wa.me/2348059973415");
+  assert.equal(`${url.origin}${url.pathname}`, "https://wa.me/2348143800477");
   assert.deepEqual([...url.searchParams.keys()], ["text"]);
   const text = url.searchParams.get("text")!;
   for (const value of [request.name, request.email, request.phone, request.checkIn, request.checkOut, "Guests: 3", request.notes, "Africa/Lagos", "Transport: not requested", "booking is not confirmed"]) assert.ok(text.includes(value));

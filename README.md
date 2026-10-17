@@ -25,7 +25,7 @@ Edit `src/content/property.ts`. Null/empty facts remain visibly labeled as await
 
 ## Booking requests
 
-The public form validates guest information, dates, the nine-guest maximum and optional transport details before opening a pre-filled message in the chosen WhatsApp or email app. Destinations derive from `property.contact`: `https://wa.me/2348059973415` and `mailto:info@sekahomes.com`. Shared message construction is in `src/lib/request-message.ts`; WhatsApp text and email subject/body are URL-encoded.
+The public form validates guest information, dates, the nine-guest maximum and optional transport details before opening a pre-filled message in the chosen WhatsApp or email app. Destinations derive from `property.contact`: `https://wa.me/2348143800477` and `mailto:info@sekahomes.com`. Shared message construction is in `src/lib/request-message.ts`; WhatsApp text and email subject/body are URL-encoded.
 
 Guests must review and tap Send in their chosen app to share their details with Seka Homes. Opening the chosen app never means sent, saved, received or confirmed. No accommodation dates are reserved and no payment is taken. The form retains a request preview and repeatable WhatsApp and pre-filled email links if popups are blocked, plus direct email and phone alternatives. There is no localStorage or automatic submission to the request API; request details exist only in page state and the pre-filled message URLs. No guest data is logged by the application.
 
